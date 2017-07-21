@@ -64,10 +64,10 @@
     return self.overriddenIdentifier;
 }
 
-- (BOOL)containsCoordinate:(CLLocationCoordinate2D)coordinate;
+- (BOOL)containsCoordinates:(CLLocationCoordinate2D)coordinate;
 {
     for (BPPolygon *polygon in self.polygons) {
-        if ([polygon containsCoordinate:coordinate]) {
+        if ([polygon containsCoordinates:coordinate]) {
             return YES;
         }
     }

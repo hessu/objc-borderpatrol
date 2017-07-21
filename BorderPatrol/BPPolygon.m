@@ -58,7 +58,7 @@
     return _coordinates;
 }
 
-- (BOOL)containsCoordinate:(CLLocationCoordinate2D)coordinate;
+- (BOOL)containsCoordinates:(CLLocationCoordinate2D)coordinate;
 {
     // Step 1: test bounding box and vertex equality
     CLLocationDegrees minLatitude = INFINITY, minLongitude = INFINITY, maxLatitude = -INFINITY, maxLongitude = -INFINITY;

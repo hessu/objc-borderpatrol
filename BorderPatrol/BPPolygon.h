@@ -19,6 +19,6 @@
 @property (nonatomic, readonly) NSUInteger coordinateCount;
 
 - (id)initWithCoordinates:(CLLocationCoordinate2D *)coordinates count:(NSUInteger)count;
-- (BOOL)containsCoordinate:(CLLocationCoordinate2D)coordinate;
+- (BOOL)containsCoordinates:(CLLocationCoordinate2D)coordinate;
 
 @end

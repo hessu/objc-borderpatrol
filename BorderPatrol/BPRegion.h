@@ -19,5 +19,6 @@
 @property (nonatomic, readonly, strong) NSSet *polygons;
 
 - (id)initWithPolygons:(NSSet *)polygons identifier:(NSString *)identifier;
+- (BOOL)containsCoordinates:(CLLocationCoordinate2D)coordinate;
 
 @end
